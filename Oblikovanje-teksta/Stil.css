@@ -1,0 +1,16 @@
+body {
+    background-color: aquamarine;
+    padding: 20px;
+}
+.kartica {
+    background-color: red;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border-left: 5px solid pink;
+}
+.font {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: khaki;
+}
