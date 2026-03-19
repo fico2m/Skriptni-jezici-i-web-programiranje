@@ -1,0 +1,74 @@
+body {
+    margin: o;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.okvir{
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+.glavna-kartica {
+    display: flex;
+    gap: 20px;
+}
+
+.kartica-1 {
+    flex: 1;
+    padding: 20px;
+    background: linear-gradient(90deg,#aadde0,#06a0bb);
+    border-radius: 10px;
+    border: 5px,solid red;
+}
+
+.kartica-2 {
+    flex: 1;
+    padding: 20px;
+    background: linear-gradient(90deg,#b4bdec,#0630bb);
+    border-radius: 10px;
+    border: 5px,solid red;
+}
+
+.kartica-3 {
+    flex: 1;
+    padding: 20px;
+    background: linear-gradient(90deg,#e0c6aa,#bb9a06);
+    border-radius: 10px;
+    border: 5px,solid red;
+}
+
+@media(max-width:1100px){
+    .glavna-kartica{
+        flex-direction: column;
+    }
+    body {
+        background-color: cadetblue;
+    }
+}
+
+@media(max-width:760px){
+    .glavna-kartica{
+        flex-direction: column;
+    }
+    body {
+        background-color: rgb(6, 37, 177);
+    }
+}
+
+.slika-1 {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 15px;
+}
+
+.slika-2 {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 15px;
+}
+
+.slika-3 {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 15px;
+}
